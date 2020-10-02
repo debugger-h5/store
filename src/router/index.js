@@ -35,6 +35,12 @@ const router = new VueRouter({
             name: 'shelf',
             component: () =>
                 import ('../views/shelf/index.vue')
+        },
+        {
+            path: '/hunt',
+            name: 'hunt',
+            component: () =>
+                import ('../views/shelf/hunt.vue')
         }
     ],
     linkActiveClass: 'active'
