@@ -60,6 +60,7 @@
 </script>
 <style lang='scss' scoped>
   #footer {
+    z-index: 999;
     height: 50px;
     width: 100%;
     background: rgba(247, 247, 247, 100);

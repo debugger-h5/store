@@ -10,9 +10,167 @@
             <img src="../../assets/img/v2_qa05y6.png" alt="">
         </div>
         <div class="content">
-            <van-skeleton title avatar :row="3" :loading="loading">
-                <div>实际内容</div>
-            </van-skeleton>
+            <div class="box">
+                <div class="box-top">
+                    <div class="l">
+                        <img
+                            src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3741733804,1966033566&fm=26&gp=0.jpg">
+                    </div>
+                    <div class="r">
+                        <h3>
+                            <h5>放空自己</h5><span>0.5km</span>
+                        </h3>
+                        <h3>
+                            <h6>喜欢艺术,文学和法律类书籍</h6><span>35本></span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="box-bot">
+                    <el-carousel :interval="4000" type="card" height="115px">
+                        <el-carousel-item v-for="item in 6" :key="item">
+                            <h3 class="medium">{{ item }}</h3>
+                        </el-carousel-item>
+                    </el-carousel>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-top">
+                    <div class="l">
+                        <img
+                            src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1851283359,3457678391&fm=26&gp=0.jpg">
+                    </div>
+                    <div class="r">
+                        <h3>
+                            <h5>星空泪痕</h5><span>0.8km</span>
+                        </h3>
+                        <h3>
+                            <h6>喜欢自然科学，互联网类书籍</h6><span>56本></span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="box-bot">
+                    <el-carousel :interval="4000" type="card" height="115px">
+                        <el-carousel-item v-for="item in 6" :key="item">
+                            <h3 class="medium">{{ item }}</h3>
+                        </el-carousel-item>
+                    </el-carousel>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-top">
+                    <div class="l">
+                        <img
+                            src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1787608900,571892759&fm=26&gp=0.jpg">
+                    </div>
+                    <div class="r">
+                        <h3>
+                            <h5>穷查理</h5><span>1.2km</span>
+                        </h3>
+                        <h3>
+                            <h6>喜欢艺术,文学和法律类书籍</h6><span>48本></span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="box-bot">
+                    <el-carousel :interval="4000" type="card" height="115px">
+                        <el-carousel-item v-for="item in 6" :key="item">
+                            <h3 class="medium">{{ item }}</h3>
+                        </el-carousel-item>
+                    </el-carousel>
+                </div>
+            </div>
+                    <div class="box">
+                <div class="box-top">
+                    <div class="l">
+                        <img
+                            src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1787608900,571892759&fm=26&gp=0.jpg">
+                    </div>
+                    <div class="r">
+                        <h3>
+                            <h5>穷查理</h5><span>1.2km</span>
+                        </h3>
+                        <h3>
+                            <h6>喜欢艺术,文学和法律类书籍</h6><span>48本></span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="box-bot">
+                    <el-carousel :interval="4000" type="card" height="115px">
+                        <el-carousel-item v-for="item in 6" :key="item">
+                            <h3 class="medium">{{ item }}</h3>
+                        </el-carousel-item>
+                    </el-carousel>
+                </div>
+            </div>
+                    <div class="box">
+                <div class="box-top">
+                    <div class="l">
+                        <img
+                            src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1787608900,571892759&fm=26&gp=0.jpg">
+                    </div>
+                    <div class="r">
+                        <h3>
+                            <h5>穷查理</h5><span>1.2km</span>
+                        </h3>
+                        <h3>
+                            <h6>喜欢艺术,文学和法律类书籍</h6><span>48本></span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="box-bot">
+                    <el-carousel :interval="4000" type="card" height="115px">
+                        <el-carousel-item v-for="item in 6" :key="item">
+                            <h3 class="medium">{{ item }}</h3>
+                        </el-carousel-item>
+                    </el-carousel>
+                </div>
+            </div>
+                    <div class="box">
+                <div class="box-top">
+                    <div class="l">
+                        <img
+                            src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1787608900,571892759&fm=26&gp=0.jpg">
+                    </div>
+                    <div class="r">
+                        <h3>
+                            <h5>穷查理</h5><span>1.2km</span>
+                        </h3>
+                        <h3>
+                            <h6>喜欢艺术,文学和法律类书籍</h6><span>48本></span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="box-bot">
+                    <el-carousel :interval="4000" type="card" height="115px">
+                        <el-carousel-item v-for="item in 6" :key="item">
+                            <h3 class="medium">{{ item }}</h3>
+                        </el-carousel-item>
+                    </el-carousel>
+                </div>
+            </div>
+                    <div class="box">
+                <div class="box-top">
+                    <div class="l">
+                        <img
+                            src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1787608900,571892759&fm=26&gp=0.jpg">
+                    </div>
+                    <div class="r">
+                        <h3>
+                            <h5>穷查理</h5><span>1.2km</span>
+                        </h3>
+                        <h3>
+                            <h6>喜欢艺术,文学和法律类书籍</h6><span>48本></span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="box-bot">
+                    <el-carousel :interval="4000" type="card" height="115px">
+                        <el-carousel-item v-for="item in 6" :key="item">
+                            <h3 class="medium">{{ item }}</h3>
+                        </el-carousel-item>
+                    </el-carousel>
+                </div>
+            </div>
         </div>
 
 
@@ -60,6 +218,13 @@
         padding: 0 20px;
 
         .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 0 20px;
+            background: #ffff;
+            z-index: 999;
+            height: 50px;
             display: flex;
             font-size: 18px;
             line-height: 50px;
@@ -77,13 +242,69 @@
         }
 
         .banner {
-            margin-top: 10px;
+            margin-top: 60px;
             margin-bottom: 40px;
 
             img {
                 height: 187px;
                 width: 100%;
                 border-radius: 20px;
+            }
+        }
+
+        .content {
+            .box {
+                .box-top {
+                    width: 100%;
+                    display: flex;
+
+                    .l {
+                        flex: 2;
+
+                        img {
+                            height: 50px;
+                            width: 50px;
+                            border-radius: 50px;
+                        }
+                    }
+
+                    .r {
+                        font-size: 12px;
+                        flex: 8;
+
+                        h3 {
+                            display: flex;
+                            justify-content: space-between;
+
+                            &:nth-child(1) {
+                                margin-bottom: 15px;
+                            }
+
+                            h5 {
+                                font-size: 16px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+
+                .box-bot {
+                    .el-carousel__item h3 {
+                        color: #475669;
+                        font-size: 14px;
+                        opacity: 0.75;
+                        line-height: 200px;
+                        margin: 0;
+                    }
+
+                    .el-carousel__item:nth-child(2n) {
+                        background-color: #99a9bf;
+                    }
+
+                    .el-carousel__item:nth-child(2n+1) {
+                        background-color: #d3dce6;
+                    }
+                }
             }
         }
     }
