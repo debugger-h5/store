@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-    <div id='mine'>mine</div>
+    <div id='mine'>我的登录</div>
 </template>
 
 <script>
