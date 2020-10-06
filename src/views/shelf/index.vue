@@ -175,21 +175,40 @@
             </div>
         </div>
         <div class="content2" v-else>
-            <div class="box">
-                <div class="box-top">
+            <div class="box1">
+                <div class="box1-top">
                     <div class="l">
                         <img
                             src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3741733804,1966033566&fm=26&gp=0.jpg">
                     </div>
                     <div class="r">
-                        <h3>
-                            <h5>放空自己</h5><span>0.5km</span>
-                        </h3>
-                        <h3>
-                            <h6>喜欢艺术,文学和法律类书籍</h6><span>35本></span>
-                        </h3>
+                        <p>放空自己</p>
+                        <p>喜欢互联网，心理学书籍</p>
+                        <p>书籍地址：上海市浦东新城</p>
                     </div>
                 </div>
+            </div>
+            <div class="sale">
+                <div class="title">
+                    <h4>在售书籍</h4>
+                    <p>35本<span>></span></p>
+                </div>
+                <el-carousel :interval="4000" type="card" height="115px">
+                    <el-carousel-item v-for="item in 6" :key="item">
+                        <h3 class="medium">{{ item }}</h3>
+                    </el-carousel-item>
+                </el-carousel>
+            </div>
+                        <div class="rent">
+                <div class="title">
+                    <h4>在租书籍</h4>
+                    <p>35本<span>></span></p>
+                </div>
+                <el-carousel :interval="4000" type="card" height="115px">
+                    <el-carousel-item v-for="item in 6" :key="item">
+                        <h3 class="medium">{{ item }}</h3>
+                    </el-carousel-item>
+                </el-carousel>
             </div>
         </div>
 
@@ -353,41 +372,105 @@
 
         .content2 {
             width: 100%;
-            // .box {
-            //     .box-top {
-            //         width: 100%;
-            //         display: flex;
+            margin-top: 60px;
 
-            //         .l {
-            //             flex: 2;
+            .box1 {
+                .box1-top {
+                    width: 100%;
+                    display: flex;
 
-            //             img {
-            //                 height: 50px;
-            //                 width: 50px;
-            //                 border-radius: 50px;
-            //             }
-            //         }
+                    .l {
+                        flex: 3;
 
-            //         .r {
-            //             font-size: 12px;
-            //             flex: 8;
+                        img {
+                            height: 100px;
+                            width: 100px;
+                            border-radius: 50px;
+                        }
+                    }
 
-            //             h3 {
-            //                 display: flex;
-            //                 justify-content: space-between;
+                    .r {
+                        font-size: 12px;
+                        flex: 7;
+                        margin-left: 30px;
 
-            //                 &:nth-child(1) {
-            //                     margin-bottom: 15px;
-            //                 }
+                        p {
+                            margin-bottom: 20px;
 
-            //                 h5 {
-            //                     font-size: 16px;
-            //                     font-weight: 600;
-            //                 }
-            //             }
-            //         }
-            //     }
-            // }
+                            &:nth-child(1) {
+                                font-size: 16px;
+                                font-weight: 600;
+                                margin-bottom: 20px;
+                            }
+
+                            &:nth-child(3) {
+                                margin-bottom: 0;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .sale {
+                .title {
+                    margin: 25px 0;
+                    display: flex;
+                    justify-content: space-between;
+
+                    h4 {
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                }
+
+                .el-carousel__item h3 {
+                    color: #475669;
+                    font-size: 14px;
+                    opacity: 0.75;
+                    line-height: 200px;
+                    margin: 0;
+                }
+
+                .el-carousel__item:nth-child(2n) {
+                    background-color: #99a9bf;
+                }
+
+                .el-carousel__item:nth-child(2n+1) {
+                    background-color: #d3dce6;
+                }
+
+            }
+            .rent {
+                .title {
+                    margin: 25px 0;
+                    display: flex;
+                    justify-content: space-between;
+
+                    h4 {
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                }
+
+                .el-carousel__item h3 {
+                    color: #475669;
+                    font-size: 14px;
+                    opacity: 0.75;
+                    line-height: 200px;
+                    margin: 0;
+                }
+
+                .el-carousel__item:nth-child(2n) {
+                    background-color: #99a9bf;
+                }
+
+                .el-carousel__item:nth-child(2n+1) {
+                    background-color: #d3dce6;
+                }
+
+            }
+
         }
     }
 </style>
