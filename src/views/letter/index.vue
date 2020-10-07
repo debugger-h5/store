@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-    <div id='letter'>letter</div>
+    <div id='letter'>1111</div>
 </template>
 
 <script>
